@@ -1,0 +1,125 @@
+* {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  /* text-align: center; */
+  box-sizing: border-box;
+}
+
+.App {
+  padding: 30px;
+  display: flex;
+}
+
+form {
+  width: 45%;
+  height: 50%;
+  padding: 20px;
+  border: 1px solid silver;
+  border-radius: 10px;
+  margin-right: 40px;
+}
+
+.input-container {
+  margin-bottom: 10px;
+}
+
+.title {
+  font-weight: bold;
+}
+
+.description {
+  font-weight: bold;
+}
+
+.iscompletede {
+  font-weight: bold;
+}
+
+.input-container input {
+  display: block;
+  padding: 8px 10px;
+  margin-top: 5px;
+  width: 60%;
+  border-radius: 5px;
+  border: 1px solid silver;
+}
+
+.input-container input[type="checkbox"] {
+  display: inline;
+  width: auto;
+}
+
+.input-container textarea {
+  display: block;
+  width: 100%;
+  height: 200px;
+  margin-top: 5px;
+}
+
+button {
+  width: 80px;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+form button {
+  background: greenyellow;
+}
+
+.dutie-list {
+  width: 50%;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.dutie-list h1 {
+  margin: 0;
+  margin-bottom: 1rem;
+  padding: 0;
+}
+
+.dutie-list ul {
+  list-style: none;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.dutie-list ul li {
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+.dutie-list ul li h4 {
+  margin: 0 0 10px 0;
+  font-size: 20px;
+  
+}
+
+.delete-btn {
+  margin-top: 1rem;
+  background: rgba(255, 47, 47, 0.749);
+  font-weight: bold;
+}
+
+.select-btn {
+  margin-top: 1rem;
+  background: rgba(47, 203, 255, 0.241);
+  font-weight: bold;
+}
+
+.delete-btn:hover{
+  background-color: darkorange;
+}
+
+.select-btn:hover{
+  background-color: darkorange;
+}
+
+.container-general-btn {
+  display: flex;
+  gap: 1rem;
+}

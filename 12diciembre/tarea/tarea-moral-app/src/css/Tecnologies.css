@@ -1,0 +1,27 @@
+.contenedor-tecnologies {
+    width: 300px;
+    height: 150px;  
+    background-color:yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1rem;
+    border-radius: 10px;
+  }
+  
+  .contenedor-titulo-tecnologies {
+    width: 100%;
+    color:dimgray;
+    display: flex;
+    justify-content: center;
+    padding-left: 1rem;
+  }
+  
+  .contenedor-texto-tecnologies {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 2rem;
+    color:black;
+  }

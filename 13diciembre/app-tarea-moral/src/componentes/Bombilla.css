@@ -1,0 +1,63 @@
+.contenedor-general {
+    width: 100%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.contenedor-bombilla {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contenedor-bombilla.encendido {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: yellow;
+    box-shadow: 0px 10px 10px black;
+}
+
+.contenedor-bombilla.apagado {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color:rgb(59, 60, 60);
+}
+
+.contendor-boton {
+    width: 50px;
+    height: 50px;
+}
+
+.boton {
+    width: 120px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    font-size: 18px;
+    padding: .3rem .3rem;
+    background-color: darkorange;
+    cursor: pointer;
+    box-shadow: 10px 5px 5px black;
+}
+
+.boton:hover {
+    background-color: darkgoldenrod;
+}
+
+.contenedor-titulo-emoji {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+}
+

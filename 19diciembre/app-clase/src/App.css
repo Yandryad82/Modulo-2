@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.contenedor-principal {
+  text-align: center;
+  padding: 10rem;
+  
+}
+
+.contenedor-principal h1{
+  padding: 1rem;
+  font-size: 100px;
+  cursor: pointer;
+}
+
+.contenedor-principal h2{
+  padding: 1rem;
+}
+.contenedor-principal img {
+  width: 200px;
+  height: 200px;
+}
+
+.contenedor-principal button {
+  width: 100px;
+  height: 35px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  color: green;
+}
+
+.contenedor-principal button:hover{
+  background-color: darkorange;
+}

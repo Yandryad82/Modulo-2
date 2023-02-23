@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+html {
+  font-size: 18px;
+  font-family: sans-serif;
+  background-color: darkgray;
+}
+
+
+
+.contenedor-principal {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  padding: 1.5rem 1.5rem;
+  flex-wrap: wrap;
+
+}
+
+@media screen and (min-width: 992px) {
+  .contenedor-principal {
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding: 1.5rem 1.5rem;
+
+  }
+}

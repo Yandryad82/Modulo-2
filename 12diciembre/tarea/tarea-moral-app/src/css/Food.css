@@ -1,0 +1,27 @@
+.contenedor-food {
+    width: 300px;
+    height: 150px;  
+    background-color:deeppink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1rem;
+    border-radius: 10px;
+  }
+  
+  .contenedor-titulo-food {
+    width: 100%;
+    color:darkviolet;
+    display: flex;
+    justify-content: center;
+    padding-left: 1rem;
+  }
+  
+  .contenedor-texto {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 2rem;
+    color: white;
+  }

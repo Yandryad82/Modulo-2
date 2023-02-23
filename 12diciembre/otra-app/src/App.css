@@ -1,0 +1,19 @@
+
+
+#root {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.contenedor-general {
+  display: flex;
+  justify-content: center;
+}
+
+.tarjeta-sobreMi {
+  width: 400px;
+  height: 300px;
+  background-color: darkgoldenrod;
+}
